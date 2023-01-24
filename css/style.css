@@ -1,0 +1,94 @@
+/* nav-section */
+.nav-item .nav-link{
+    margin-left:45px;
+}
+.btn{
+    color: white;
+    font-size: 18px;
+    background-color: #B68C5A;
+}
+.btn:hover{
+    color: #B68C5A;
+    border: 1px solid gray;
+}
+/* banner-section */
+.banner{
+    background:url(../images/Rectangle\ 6.png);
+    background-position:cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    padding: 120px 239px;
+}
+.banner-title{
+    color: white;
+    font-size:60px;
+    font-weight: 800;
+    font-family:Garamond;
+}
+.banner-description{
+    color: #E7E7E7;
+}
+/* banner-button */
+#button-addon2{
+    border-radius: 5px;
+}
+#button-addon2:hover{
+    color:rgb(32, 32, 32);
+     background-color: rgb(221, 216, 216);
+}
+
+/* card section */
+.card-img-top{
+    height:70px;
+    width: 70px;
+}
+.card-title{
+    font-size: 32px;
+    font-weight: 800;
+}
+.card-text{
+    color: #707070;
+}
+
+/* carousel */
+.img{
+    height:60px;
+    width: 60px;
+}
+.span{
+   color: #F3F3F3;
+}
+
+/* contact-information */
+.bg{
+    background-color: #f3f2f1;
+}
+.c-box:hover{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+/* contact-form */
+textarea{
+    resize: none;
+    display:block;
+}
+
+.card-body,.form-control{
+    background-color: #F3F3F3;;
+}
+
+/* media query */
+
+@media only screen and (max-width:576px) {
+    /* banner */
+    .banner{
+        padding: 0;
+    }
+    /* faq */
+    .box{
+        flex-direction:column-reverse;
+      }
+      .box-2{
+        flex-direction: column;
+      }
+  }
